@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator-screen" id="screen"></div>
+        <div class="calculator-keys">
+            <button onclick="handleButtonClick('7')">7</button>
+            <button onclick="handleButtonClick('8')">8</button>
+            <button onclick="handleButtonClick('9')">9</button>
+            <button class="operator" onclick="handleButtonClick('+')">+</button>
+            <button onclick="handleButtonClick('4')">4</button>
+            <button onclick="handleButtonClick('5')">5</button>
+            <button onclick="handleButtonClick('6')">6</button>
+            <button class="operator" onclick="handleButtonClick('-')">-</button>
+            <button onclick="handleButtonClick('1')">1</button>
+            <button onclick="handleButtonClick('2')">2</button>
+            <button onclick="handleButtonClick('3')">3</button>
+            <button class="operator" onclick="handleButtonClick('*')">*</button>
+            <button onclick="handleButtonClick('0')">0</button>
+            <button onclick="handleButtonClick('.')">.</button>
+            <button class="operator" onclick="handleButtonClick('/')">/</button>
+            <button class="operator" onclick="handleButtonClick('%')">%</button>
+            <button class="operator" onclick="handleButtonClick('^')">^</button>
+            <button onclick="erase()">⌫</button>
+            <button class="clear" onclick="clearScreen()">C</button>
+            <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>
